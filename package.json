@@ -17,7 +17,7 @@
     }
   },
   "dependencies": {
-    "next": "canary",
+    "next": "^9.4.4",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-three-fiber": "^4.2.13",
