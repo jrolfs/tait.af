@@ -3,9 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "boot": "next start",
     "build": "next build",
-    "start": "next start"
+    "commit": "hover-scripts commit",
+    "format": "hover-scripts format",
+    "lint": "hover-scripts lint",
+    "start": "next dev"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "hover-scripts pre-commit",
+      "commit-msg": "hover-scripts commit-msg"
+    }
   },
   "dependencies": {
     "next": "canary",
