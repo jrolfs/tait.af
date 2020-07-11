@@ -5,17 +5,13 @@ import ThreeExample from '../components/ThreeExample';
 
 export default function Home() {
   return (
-    <div className="container">
+    <>
       <Head>
         <title>Tate A.F.</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <ThreeExample />
-
-      <main>
-        <h1 className="title">Happy Birthday Mike!</h1>
-      </main>
-    </div>
+    </>
   );
 }
