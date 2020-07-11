@@ -1,30 +1,92 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
+  <h1>tate.af</h1>
+  <p>Happy birthday Mike!</p>
+</div>
 
-## Getting Started
+---
 
-First, run the development server:
+[![Node Version][node-badge]][node-link]
+[![Conventional Commits][conventional-commits-badge]][conventional-commits-link]
+[![Code Style][prettier-badge]][prettier-link]
 
-```bash
-npm run dev
-# or
-yarn dev
+## Contents
+
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+## 🌱 Getting Started
+
+<!-- ### ⚙️ Configuration
+
+> ⓘ Note: these steps are optional and only necessary if you want to change any
+> of the default values (which can be found in the example `.env` files).
+
+1. Copy environment template
+
+```shell
+> cp -n .env.example .env
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. Adjust values in `.env` as needed
+-->
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+### 🚚 Install Dependencies
 
-## Learn More
+1. Ensure we're using the correct Node version
 
-To learn more about Next.js, take a look at the following resources:
+   ```shell
+   ▶ nvm use # optional, use Node version manager of you choice ;)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ▶ node --version
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+   v12.18.2
+   ```
 
-## Deploy on Vercel
+2. Install dependencies
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```shell
+   ▶ yarn install
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### 🚀 Startup
+
+1. Fire up the development server
+
+   ```shell
+   ▶ yarn start
+   ```
+
+2. Open your browser to [http://localhost:3000](http://localhost:3000)
+
+<!-- ## 🧪 Tests
+
+```shell
+> yarn test
+``` -->
+
+## 🚢 Production
+
+### 🏗️ Build / Run
+
+1. Build production assets
+
+   ```shell
+   ▶ yarn build
+   ```
+
+2. Start server
+
+   ```shell
+   ▶ yarn boot
+   ```
+
+[conventional-commits-link]: https://conventionalcommits.org
+[conventional-commits-badge]:
+  https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg?logo=git&logoColor=yellow
+[node-link]: https://nodejs.org/en/download/
+[node-badge]:
+  https://img.shields.io/badge/node-v12.18.2-43853d?logo=node.js&logoColor=68A063
+[prettier-link]: https://prettierjs.org/en/download/
+[prettier-badge]:
+  https://img.shields.io/badge/code_style-prettier-ff69b4.svg?logo=prettier
